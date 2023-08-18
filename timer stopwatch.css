@@ -1,0 +1,45 @@
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: Arial, sans-serif;
+}
+
+.timer, .stopwatch {
+    margin-bottom: 30px;
+}
+
+#timerDisplay, #stopwatchDisplay {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.timer-controls, .stopwatch-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+    background-color: cornsilk;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 5px;
+    background-color: antiquewhite;
+}
+.timer-controls{
+    background-color: rgb(253, 127, 255);
+}
+.stopwatch-controls{
+    background-color: rgb(136, 127, 255);
+}
+h1{
+    background-color: rgb(132, 237, 158);
+}
